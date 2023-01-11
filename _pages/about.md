@@ -8,7 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-Lol first page fist line
+Hi! Thank you for visiting my website. I am a graduate student studying Robotics at the University of Pennsylvania.
+
+My area of focus is motion planning and computer vision. The video above is a progress video of my current project as an RA at the xLAB. I am working on fusing lidar-camera sensor feeds for robust cone detection.
+
+I am interested in working towards the holistic development of autonomous mobile robots with an aim to build robust software pipelines to seamlessly work with the given hardware.
+
+In my professional career, I have worked on feature development and system integration for autonomous navigation using open-source tools.
+
+Projects
+======
+Waypoint Navigation of a quadruped robot with asymmetrical payload.
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+
 
 <!-- A data-driven personal website
 ======
