@@ -21,7 +21,7 @@ Robust cone detection using Lidar and camera
 ------
 The aim of this project is to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cone as landmarks. 
 
-[![](https://img.youtube.com/vi/AknzieI0od0/0.jpg)](https://www.youtube.com/watch?v=AknzieI0od0 "")
+[![Watch the video](https://img.youtube.com/vi/AknzieI0od0/3.jpg)](https://youtu.be/AknzieI0od0)
 
 <!-- A data-driven personal website
 ======
