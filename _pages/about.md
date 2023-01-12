@@ -27,12 +27,13 @@ The aim of this project is to fuse cone detections from both the sensors and use
 
 <div align="left">
       <a href="https://www.youtube.com/watch?v=5yLzZikS15k">
-         <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:50%;">
+         <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:30%;">
       </a>
       <a href="https://www.youtube.com/watch?v=5yLzZikS15k">
-         <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:50%;">
+         <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:30%;">
       </a>
-<!-- </div><div align="center">
+ </div> 
+<!-- <div align="center">
       <a href="https://www.youtube.com/watch?v=5yLzZikS15k">
          <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:50%;">
       </a>
