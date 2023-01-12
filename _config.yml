@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-# title                    : "Divyanshu"
+title                    : "Divyanshu Sahu"
 title_separator          : "-"
 name                     : &name "Divyanshu Sahu"
 description              : &description "Studying robotics at UPenn"
@@ -46,8 +46,8 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+# atom_feed:
+  # path                   : # blank (default) uses feed.xml
 
 # SEO Related
 google_site_verification :
