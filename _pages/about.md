@@ -28,11 +28,11 @@ The aim of this project is to fuse cone detections from both the sensors and use
 
 
 <div class="box">
-  <iframe src="https://www.youtube.com/embed/AknzieI0od0" frameborder="0" scrolling="no" width="10%" height="10" align="left"> </iframe>
+  <iframe src="https://www.youtube.com/embed/AknzieI0od0" frameborder="0" scrolling="no" width="10%" height="2" align="left"> </iframe>
 </div>
 
 <div class="box">
-  <iframe src="https://www.youtube.com/embed/5mYCOwyy4mo" frameborder="0" scrolling="no" width="10%" height="10" align="right"></iframe>
+  <iframe src="https://www.youtube.com/embed/5mYCOwyy4mo" frameborder="0" scrolling="no" width="10%" height="2" align="right"></iframe>
 </div>
 
 
