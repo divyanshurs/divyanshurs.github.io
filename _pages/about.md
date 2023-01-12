@@ -25,6 +25,17 @@ The aim of this project is to fuse cone detections from both the sensors and use
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
 
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=5yLzZikS15k">
+         <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:20%;">
+      </a>
+</div>
+
+<div align="right">
+      <a href="https://www.youtube.com/watch?v=5yLzZikS15k">
+         <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:20%;">
+      </a>
+</div>
 Object detection and instance segmentation
 ------
 Implemented end-to-end object detection and instance segmentation pipelines from scratch. Performed post-processing and analysed performence using MAP metric.
