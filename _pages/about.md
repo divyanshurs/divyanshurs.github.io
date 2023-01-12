@@ -8,19 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Thank you for visiting my website. I am a graduate student studying Robotics at the University of Pennsylvania.
+Hi! Thank you for visiting my website. I am a graduate student studying Robotics at the University of Pennsylvania. I am currently in my final semester actively looking for job opportunties in computer vision and motion planning roles. 
 
-My area of focus is motion planning and computer vision. The video above is a progress video of my current project as an RA at the xLAB. I am working on fusing lidar-camera sensor feeds for robust cone detection.
+In my professional career, I have worked as an integration lead at [SkyMul](https://skymul.com/) (based in Atlanta) and developed end-to-end software pipelines to semalessly integrate with their quadrupedal hardware platform. I have worked extensively with ROS. Before joining Penn, I also worked on feature development for mobile robots for [Mowito](https://www.mowito.in/) which is a robotics startup based out of India. 
 
 I am interested in working towards the holistic development of autonomous mobile robots with an aim to build robust software pipelines to seamlessly work with the given hardware.
 
-In my professional career, I have worked on feature development and system integration for autonomous navigation using open-source tools.
-
 Projects
 ======
-Waypoint Navigation of a quadruped robot with asymmetrical payload.
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
+Robust cone detection using Lidar and camera
+------
+The aim of this project is to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cone as landmarks. 
+
+[![](https://img.youtube.com/vi/AknzieI0od0/0.jpg)](https://www.youtube.com/watch?v=AknzieI0od0 "")
 
 <!-- A data-driven personal website
 ======
