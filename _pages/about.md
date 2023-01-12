@@ -25,14 +25,25 @@ The aim of this project is to fuse cone detections from both the sensors and use
 
 <!-- [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY) -->
 
-<div align="left">
-      <a href="https://www.youtube.com/embed/AknzieI0od0">
-         <img src="https://www.youtube.com/embed/AknzieI0od0" style="width:30%;">
+
+
+<div class="box">
+  <iframe src="https://www.youtube.com/embed/AknzieI0od0" frameborder="0" scrolling="no" width="30%" height="200" align="left"> </iframe>
+</div>
+
+<div class="box">
+  <iframe src="https://www.youtube.com/embed/5mYCOwyy4mo" frameborder="0" scrolling="no" width="30%" height="200" align="right"></iframe>
+</div>
+
+
+<!-- <div align="left">
+      <a href="https://www.youtube.com/watch?v=5yLzZikS15k">
+         <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:30%;">
       </a>
       <a href="https://www.youtube.com/watch?v=5yLzZikS15k">
          <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:30%;">
       </a>
- </div> 
+ </div>  -->
 <!-- <div align="center">
       <a href="https://www.youtube.com/watch?v=5yLzZikS15k">
          <img src="https://img.youtube.com/vi/5yLzZikS15k/0.jpg" style="width:50%;">
