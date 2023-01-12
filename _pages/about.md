@@ -23,6 +23,7 @@ The aim of this project is to fuse cone detections from both the sensors and use
 
 <iframe width="100" height="100" src="https://www.youtube.com/embed/AknzieI0od0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
+<iframe src="https://www.youtube.com/embed/AknzieI0od0" style="width:100px; height:100px !important;" frameborder="0"></iframe>
 <!-- <iframe width="100" height="100" src="https://www.youtube.com/embed/5mYCOwyy4mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 <!-- A data-driven personal website
