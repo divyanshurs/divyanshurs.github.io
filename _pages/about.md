@@ -17,17 +17,16 @@ I am interested in working towards the holistic development of autonomous mobile
 Professional Experience
 ======
 
-Skymul (Atlanta)
+Skymul (Atlanta) - **Integration Lead**
 ------
-**Integration Lead**
+
 My role at Skymul had been to integrate hardware components and create an end-to-end software pipeline for performing waypoint navigation on a mobile platform. During the period of my internship, I've had the opportunity to learn and interact with hardware and learn how to use software drivers to integrate them into a complete system. I worked mainly on integrating three different hardware platforms with the robot. The aim was to test the accuracy of these sensor platforms and decide the best for the robot’s task at hand.
 
 [<img src="images/in1.gif?raw=true" width="300" height="300">](https://youtu.be/_rudkxJkVwE)
 [<img src="images/o1.gif?raw=true" width="300" height="300">](https://youtu.be/0yFySHLm6fA)
 
-Mowito Robotics (Bangalore)
+Mowito Robotics (Bangalore) - **Robotics Engineer**
 ------
-**Robotics Engineer**
 
 My work was majorly focused on feature development of this controller for client-specific applications of mobile robots (results of this work are shown below). I was also involved in porting the Maxl controller to ROS2 for benchmarking and making the Maxl controller library independent of ROS.
 
@@ -59,13 +58,13 @@ This project was a semester long implementation of several methods implemented f
 
 Two-View and Multi-View Stereo for 3D reconstruction 
 ------
-The aim of this project was to use two view and multiple view images to form a 3D reconstruction of the object of interest. [GitHub](https://github.com/divyanshurs/two-view_and_multi-view_stereo)
+The aim of this project was to use two view and multiple view images to form a 3D reconstruction of the object of interest. For multi-view stereo the plane sweep algorithm was implemented. [GitHub](https://github.com/divyanshurs/two-view_and_multi-view_stereo)
 
 <img src="images/t1.png?raw=true" width="300" height="300"><img src="images/result.gif?raw=true" width="300" height="300">  
 
 SLAM using Particle Filter for humanoid Robot
 ------
-This project was focused on doing simultaneous localization and mapping by fusing Lidar and IMU data on a humanoid robot. [GitHub](https://github.com/divyanshurs/particle_filter_SLAM_humanoid_robot)
+The aim of this project was to perform particle filter based SLAM using the IMU and the LIDAR data from a THOR-OP Humanoid Robot. The IMU data avaialble was filtered and used with lidar data to perform SLAM. The lidar data is transformed into the map co-ordinates by applying suitable transformations. Based on the paricle filter approach the best particle with maximum correlation is chosen and the log odds of the map is updated. This scan-matching technique is used to update the obstacles in real-time on a gridmap as well as localize the robot in the world. [GitHub](https://github.com/divyanshurs/particle_filter_SLAM_humanoid_robot)
 
 <img src="images/s1.png?raw=true" width="300" height="300"><img src="images/final0.png?raw=true" width="300" height="300"><img src="images/final1.png?raw=true" width="300" height="300"><img src="images/final3.png?raw=true" width="300" height="300">
 
