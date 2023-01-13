@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Thank you for visiting my website. I am a graduate student studying Robotics at the University of Pennsylvania. I am currently in my final semester actively looking for job opportunties in computer vision and motion planning roles. 
+Hi! Thank you for visiting my website. I am a graduate student studying Robotics at the University of Pennsylvania. I am currently in my final semester actively looking for job opportunties in computer vision and motion planning roles. Please feel free to contact me with relevant roles via email.
 
 In my professional career, I have worked as an integration lead at [SkyMul](https://skymul.com/) (based in Atlanta) and developed end-to-end software pipelines to semalessly integrate with their quadrupedal hardware platform. I have extensively worked with ROS. Before joining Penn, I also worked on feature development for mobile robots for [Mowito](https://www.mowito.in/) which is a robotics startup based out of India. 
 
-I am interested in working towards the holistic development of autonomous mobile robots with an aim to build robust software pipelines to seamlessly work with the given hardware.
+I am interested in working towards the holistic development of autonomous mobile robots with an aim to build robust software pipelines to seamlessly work with the given hardware. Please find my resume [here](https://drive.google.com/file/d/18cgcgF_DLttxZDoGNlVd0yVwi4Larngq/view?usp=sharing). 
 
 Professional Experience
 ======
@@ -20,7 +20,7 @@ Professional Experience
 Skymul (Atlanta) - **Integration Lead**
 ------
 
-My role at Skymul had been to integrate hardware components and create an end-to-end software pipeline for performing waypoint navigation on a mobile platform. During the period of my internship, I've had the opportunity to learn and interact with hardware and learn how to use software drivers to integrate them into a complete system. I worked mainly on integrating three different hardware platforms with the robot. The aim was to test the accuracy of these sensor platforms and decide the best for the robot’s task at hand.
+My role at Skymul had been to integrate hardware components and create an end-to-end software pipeline for performing waypoint navigation on a mobile platform. During the period of my internship, I've had the opportunity to interact with hardware and learn how to use software drivers to integrate them into a complete system. I worked mainly on integrating three different hardware platforms with the robot. The aim was to test the accuracy of these sensor platforms and decide the best for the robot’s task at hand.
 
 [<img src="images/in1.gif?raw=true" width="300" height="300">](https://youtu.be/_rudkxJkVwE)
 [<img src="images/o1.gif?raw=true" width="300" height="300">](https://youtu.be/0yFySHLm6fA)
@@ -43,15 +43,23 @@ The aim of this project is to fuse cone detections from both the sensors and use
 [<img src="images/f1.gif?raw=true" width="300" height="300">](https://youtu.be/AknzieI0od0)
 [<img src="images/f2.gif?raw=true" width="300" height="300">](https://youtu.be/5mYCOwyy4mo)
 
+Trajectory optimization for cube manipulation
+------
+The objective of this project, completed as part of the MEAM 517 course, was to design control systems for the vertices of a polytope (a cube in this case) to enable precise movement to a desired position and orientation. The main challenges encountered were managing surface friction and the number of contacts the cube had at any given moment.
+
+We implemented two methods namely the offline iLQR and online MPC approach to achieve this task. The results of which are given below. 
+
+<img src="images/square.gif?raw=true" width="300" height="300"> <img src="images/traj_opt_min.gif?raw=true" width="300" height="300">
+
 Object detection and instance segmentation
 ------
-Implemented YOLO, SOLO, and Faster-RCNN pipelines for object detection and instance segmentation tasks from scratch. Performed post-processing and analysed performence using MAP metric. [GitHub](https://github.com/divyanshurs/object_detection_and_segmentation)
+Implemented YOLO, SOLO, and Faster-RCNN pipelines for object detection and instance segmentation tasks from scratch. Performed post-processing and analysed performence using mAP metric. [GitHub](https://github.com/divyanshurs/object_detection_and_segmentation)
 
 <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
 
 Path planning approaches for a planar quadrotor
 ------
-This project was a semester long implementation of several methods implemented for planar quadrotor control as a part of the MEAM 517 (Control and Optimization with learning in Robotics). These methods include MPC, iLQR, LQR to follow a nominal trajectory, and minimum snap trajctory planning in differtially flat space of the quadrotor. Each folder above is the complete implementation of the same. The results for the same are as below.
+This project was a semester long implementation of several methods implemented for planar quadrotor control as a part of the MEAM 517 (Control and Optimization with learning in Robotics). These methods include MPC, iLQR, LQR to follow a nominal trajectory, and minimum snap trajctory planning in differtially flat space of the quadrotor. The results for the same are as below. [GitHub](https://github.com/divyanshurs/path_planning_planar_quadrotor)
 
 <img src="images/MPC.gif?raw=true" width="300" height="300"><img src="images/ilqr.png?raw=true" width="300" height="300"> <img src="images/traj_track.gif?raw=true" width="300" height="300"><img src="images/min_snap1.png?raw=true" width="300" height="300">
 
@@ -67,6 +75,12 @@ SLAM using Particle Filter for humanoid Robot
 The aim of this project was to perform particle filter based SLAM using the IMU and the LIDAR data from a THOR-OP Humanoid Robot. The IMU data avaialble was filtered and used with lidar data to perform SLAM. The lidar data is transformed into the map co-ordinates by applying suitable transformations. Based on the paricle filter approach the best particle with maximum correlation is chosen and the log odds of the map is updated. This scan-matching technique is used to update the obstacles in real-time on a gridmap as well as localize the robot in the world. [GitHub](https://github.com/divyanshurs/particle_filter_SLAM_humanoid_robot)
 
 <img src="images/s1.png?raw=true" width="300" height="300"><img src="images/final0.png?raw=true" width="300" height="300"><img src="images/final1.png?raw=true" width="300" height="300"><img src="images/final3.png?raw=true" width="300" height="300">
+
+Autonomous Pick and Place Challenge
+------
+The aim of this project was to use the library features developed for the Franka Panda Arm during the semester to develop a strategy for picking up static and dynamic blocks and placing them on the reward table. The aim of the strategy was to maximize the score and minimize the time. The Github repository for the entire project can be found [here](https://github.com/divyanshurs/Autonomous-Pick-and-Place-Challenge).
+
+<img src="images/ppr.gif?raw=true" width="300" height="300"> <img src="images/pps.gif?raw=true" width="300" height="300">
 
 <!-- A data-driven personal website
 ======
