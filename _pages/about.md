@@ -14,6 +14,25 @@ In my professional career, I have worked as an integration lead at [SkyMul](http
 
 I am interested in working towards the holistic development of autonomous mobile robots with an aim to build robust software pipelines to seamlessly work with the given hardware.
 
+Professional Experience
+======
+Skymul (Atlanta)
+------
+**Integration Lead**
+My role at Skymul had been to integrate hardware components and create an end-to-end software pipeline for performing waypoint navigation on a mobile platform. During the period of my internship, I've had the opportunity to learn and interact with hardware and learn how to use software drivers to integrate them into a complete system. I worked mainly on integrating three different hardware platforms with the robot. The aim was to test the accuracy of these sensor platforms and decide the best for the robot’s task at hand.
+
+[<img src="images/in1.gif?raw=true" width="300" height="300">](https://youtu.be/_rudkxJkVwE)
+[<img src="images/o1.gif?raw=true" width="300" height="300">](https://youtu.be/0yFySHLm6fA)
+
+Mowito Robotics (Bangalore)
+------
+**Robotics Engineer**
+
+My work was majorly focused on feature development of this controller for client-specific applications of mobile robots (results of this work are shown below). I was also involved in porting the Maxl controller to ROS2 for benchmarking and making the Maxl controller library independent of ROS.
+
+[<img src="images/m1.gif?raw=true" width="300" height="300">](https://youtu.be/Q3ZjfgWT8YQ)
+[<img src="images/m2.gif?raw=true" width="300" height="300">](https://youtu.be/9VXhffuqpYs)
+
 Projects
 ======
 
@@ -21,7 +40,6 @@ Robust cone detection using Lidar and camera
 ------
 The aim of this project is to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cone as landmarks. Please check out the current reults below.
 
-<!-- [![Watch the video](<img src="images/f1.gif?raw=true" width="300" height="300">)](https://youtu.be/AknzieI0od0)[![Watch the video](<img src="images/f2.gif?raw=true" width="300" height="300">)](https://youtu.be/5mYCOwyy4mo) -->
 [<img src="images/f1.gif?raw=true" width="300" height="300">](https://youtu.be/AknzieI0od0)
 [<img src="images/f2.gif?raw=true" width="300" height="300">](https://youtu.be/5mYCOwyy4mo)
 
@@ -41,7 +59,7 @@ SLAM using Particle Filter for humanoid Robot
 ------
 This project was focused on doing simultaneous localization and mapping by fusing Lidar and IMU data on a humanoid robot. [GitHub](https://github.com/divyanshurs/particle_filter_SLAM_humanoid_robot)
 
-<img src="images/s1.png?raw=true" width="300" height="300">
+<img src="images/s1.png?raw=true" width="300" height="300"><img src="images/final0.png?raw=true" width="300" height="300"><img src="images/final1.png?raw=true" width="300" height="300"><img src="images/final3.png?raw=true" width="300" height="300">
 
 <!-- A data-driven personal website
 ======
