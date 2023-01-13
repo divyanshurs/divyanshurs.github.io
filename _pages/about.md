@@ -16,6 +16,7 @@ I am interested in working towards the holistic development of autonomous mobile
 
 Professional Experience
 ======
+
 Skymul (Atlanta)
 ------
 **Integration Lead**
@@ -48,6 +49,13 @@ Object detection and instance segmentation
 Implemented YOLO, SOLO, and Faster-RCNN pipelines for object detection and instance segmentation tasks from scratch. Performed post-processing and analysed performence using MAP metric. [GitHub](https://github.com/divyanshurs/object_detection_and_segmentation)
 
 <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
+
+Path planning approaches for a planar quadrotor
+------
+This project was a semester long implementation of several methods implemented for planar quadrotor control as a part of the MEAM 517 (Control and Optimization with learning in Robotics). These methods include MPC, iLQR, LQR to follow a nominal trajectory, and minimum snap trajctory planning in differtially flat space of the quadrotor. Each folder above is the complete implementation of the same. The results for the same are as below.
+
+<img src="images/MPC.gif?raw=true" width="300" height="300"><img src="images/ilqr.png?raw=true" width="300" height="300"> <img src="images/traj_track.gif?raw=true" width="300" height="300"><img src="images/min_snap1.png?raw=true" width="300" height="300">
+
 
 Two-View and Multi-View Stereo for 3D reconstruction 
 ------
