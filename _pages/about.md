@@ -21,25 +21,27 @@ Robust cone detection using Lidar and camera
 ------
 The aim of this project is to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cone as landmarks. Please check out the current reults below.
 
-[![Watch the video](<img src="images/f1.gif?raw=true" width="300" height="300">)](https://youtu.be/AknzieI0od0)[![Watch the video](<img src="images/f2.gif?raw=true" width="300" height="300">)](https://youtu.be/5mYCOwyy4mo)
+<!-- [![Watch the video](<img src="images/f1.gif?raw=true" width="300" height="300">)](https://youtu.be/AknzieI0od0)[![Watch the video](<img src="images/f2.gif?raw=true" width="300" height="300">)](https://youtu.be/5mYCOwyy4mo) -->
+[<img src="images/f1.gif?raw=true" width="300" height="300">](https://youtu.be/AknzieI0od0)
+[<img src="images/f2.gif?raw=true" width="300" height="300">](https://youtu.be/5mYCOwyy4mo)
 
 Object detection and instance segmentation
 ------
-Implemented YOLO, SOLO, and Faster-RCNN pipelines for object detection and instance segmentation tasks from scratch. Performed post-processing and analysed performence using MAP metric. [GitHub]()
+Implemented YOLO, SOLO, and Faster-RCNN pipelines for object detection and instance segmentation tasks from scratch. Performed post-processing and analysed performence using MAP metric. [GitHub](https://github.com/divyanshurs/object_detection_and_segmentation)
 
 <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
 
 Two-View and Multi-View Stereo for 3D reconstruction 
 ------
-The aim of this project was to use two view and multiple view images to form a 3D reconstruction of the object of interest.
+The aim of this project was to use two view and multiple view images to form a 3D reconstruction of the object of interest. [GitHub](https://github.com/divyanshurs/two-view_and_multi-view_stereo)
 
-<img src="images/t1.png?raw=true" width="300" height="300"> 
+<img src="images/t1.png?raw=true" width="300" height="300"><img src="images/result.gif?raw=true" width="300" height="300">  
 
 SLAM using Particle Filter for humanoid Robot
 ------
-This project was focused on doing simultaneous localization and mapping by fusing Lidar and IMU data on a humanoid robot.
+This project was focused on doing simultaneous localization and mapping by fusing Lidar and IMU data on a humanoid robot. [GitHub](https://github.com/divyanshurs/particle_filter_SLAM_humanoid_robot)
 
-<img src="images/s1.png?raw=true" width="300" height="300"><img src="images/result.gif?raw=true" width="300" height="300"> 
+<img src="images/s1.png?raw=true" width="300" height="300">
 
 <!-- A data-driven personal website
 ======
