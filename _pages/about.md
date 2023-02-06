@@ -12,7 +12,7 @@ Hi! Thank you for visiting my website. I am a graduate student studying Robotics
 
 In my professional career, I have worked as an integration lead at [SkyMul](https://skymul.com/) (based in Atlanta) and developed end-to-end software pipelines to semalessly integrate with their quadrupedal hardware platform. I have extensively worked with ROS. Before joining Penn, I also worked on feature development for mobile robots for [Mowito](https://www.mowito.in/) which is a robotics startup based out of India. 
 
-I am interested in working towards the holistic development of autonomous mobile robots with an aim to build robust software pipelines to seamlessly work with the given hardware. Please find my resume [here](https://drive.google.com/file/d/1uoELHgqkV32yA_X0jAzO6NrEZ91vtry8/view?usp=sharing). 
+I am interested in working towards the holistic development of autonomous mobile robots with an aim to build robust software pipelines to seamlessly work with the given hardware. Please find my resume [here](https://divyanshurs.github.io/Resume.pdf). 
 
 Professional Experience
 ======
