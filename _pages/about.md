@@ -14,6 +14,17 @@ In my professional career, I have worked as an integration lead at [SkyMul](http
 
 I am interested in working towards the holistic development of autonomous mobile robots with an aim to build robust software pipelines to seamlessly work with the given hardware. Please find my resume [here](https://divyanshurs.github.io/files/Resume.pdf). 
 
+
+Research Experience
+======
+mLAB- Autonomous Go-Kart Group | GRASP-UPenn 
+Robust cone detection using Lidar and camera
+------
+This is part of my continued research on optimal methods for sensor fusion for localisation and SLAM. The aim of this project is to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cones as landmarks. Please check out the current reults below.
+
+[<img src="images/f1.gif?raw=true" width="300" height="300">](https://youtu.be/AknzieI0od0)
+[<img src="images/f2.gif?raw=true" width="300" height="300">](https://youtu.be/5mYCOwyy4mo)
+
 Professional Experience
 ======
 
@@ -36,12 +47,11 @@ My work was majorly focused on feature development of this controller for client
 Projects
 ======
 
-Robust cone detection using Lidar and camera
+Object detection and instance segmentation
 ------
-The aim of this project is to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cone as landmarks. Please check out the current reults below.
+Implemented YOLO, SOLO, and Faster-RCNN pipelines for object detection and instance segmentation tasks from scratch. Performed post-processing and analysed performence using mAP metric. [GitHub](https://github.com/divyanshurs/object_detection_and_segmentation)
 
-[<img src="images/f1.gif?raw=true" width="300" height="300">](https://youtu.be/AknzieI0od0)
-[<img src="images/f2.gif?raw=true" width="300" height="300">](https://youtu.be/5mYCOwyy4mo)
+<img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
 
 Trajectory optimization for cube manipulation
 ------
@@ -51,11 +61,11 @@ We implemented two methods namely the offline iLQR and online MPC approach to ac
 
 <img src="images/square.gif?raw=true" width="300" height="300"> <img src="images/traj_opt_min.gif?raw=true" width="300" height="300">
 
-Object detection and instance segmentation
+Two-View and Multi-View Stereo for 3D reconstruction 
 ------
-Implemented YOLO, SOLO, and Faster-RCNN pipelines for object detection and instance segmentation tasks from scratch. Performed post-processing and analysed performence using mAP metric. [GitHub](https://github.com/divyanshurs/object_detection_and_segmentation)
+The aim of this project was to use two view and multiple view images to form a 3D reconstruction of the object of interest. For multi-view stereo the plane sweep algorithm was implemented. [GitHub](https://github.com/divyanshurs/two-view_and_multi-view_stereo)
 
-<img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
+<img src="images/t1.png?raw=true" width="300" height="300"><img src="images/result.gif?raw=true" width="300" height="300">  
 
 Path planning approaches for a planar quadrotor
 ------
@@ -63,12 +73,6 @@ This project was a semester long implementation of several methods implemented f
 
 <img src="images/MPC.gif?raw=true" width="300" height="300"><img src="images/ilqr.png?raw=true" width="300" height="300"> <img src="images/traj_track.gif?raw=true" width="300" height="300"><img src="images/min_snap1.png?raw=true" width="300" height="300">
 
-
-Two-View and Multi-View Stereo for 3D reconstruction 
-------
-The aim of this project was to use two view and multiple view images to form a 3D reconstruction of the object of interest. For multi-view stereo the plane sweep algorithm was implemented. [GitHub](https://github.com/divyanshurs/two-view_and_multi-view_stereo)
-
-<img src="images/t1.png?raw=true" width="300" height="300"><img src="images/result.gif?raw=true" width="300" height="300">  
 
 SLAM using Particle Filter for humanoid Robot
 ------
