@@ -20,7 +20,7 @@ Research Experience
 
 mLAB- Autonomous Go-Kart Group | GRASP-UPenn - Robust cone detection using Lidar and camera
 ------
-This is part of my continued research on optimal methods for sensor fusion for localisation and SLAM. The aim of this project is to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cones as landmarks. Please check out the current reults below.
+This is part of my continued research on optimal methods for sensor fusion for localization and SLAM. The aim of this project is to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cones as landmarks. Please check out the current reults below.
 
 [<img src="images/f1.gif?raw=true" width="300" height="300">](https://youtu.be/AknzieI0od0)
 [<img src="images/f2.gif?raw=true" width="300" height="300">](https://youtu.be/5mYCOwyy4mo)
