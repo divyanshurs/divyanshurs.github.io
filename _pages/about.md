@@ -22,7 +22,7 @@ mLAB- Autonomous Go-Kart Group | GRASP-UPenn - Robust cone detection using Lidar
 ------
 This is part of my continued research on optimal methods for sensor fusion for localization and SLAM. The aim of this project is to use GPS+IMU fusion along with LIDAR's and cameras for robust and fast localization for an autonomous go-kart. The following is an initial result of EKF fusion using GPS and IMU. I used the pose estimate from GPS in a differential mode and fused it with the pose estimate from IMU. Moreover, I also tuned the IMU covariances to get the best results for fusion.
 
-<img src="images/fusion.png?raw=true" width="300" height="300">
+<img src="images/fusion.png?raw=true" width="400" height="400">
 
 In my last semester, I worked to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cones as landmarks. Please check out the current reults below.
 
