@@ -20,11 +20,15 @@ Research Experience
 
 mLAB- Autonomous Go-Kart Group | GRASP-UPenn - Robust cone detection using Lidar and camera
 ------
-This is part of my continued research on optimal methods for sensor fusion for localization and SLAM. The aim of this project is to use GPS+IMU fusion along with LIDAR's and cameras for robust and fast localization for an autonomous go-kart. The following is an initial result of EKF fusion using GPS and IMU. I used the pose estimate from GPS in a differential mode and fused it with the pose estimate from IMU. Moreover, I also tuned the IMU covariances to get the best results for fusion.
+This is part of my continued research on optimal methods for sensor fusion for localization and SLAM. The aim of this project is to use GPS+IMU fusion along with LIDAR's and cameras for robust and fast localization of an autonomous go-kart. The following is the final result of EKF fusion using GPS and IMU. The pipeline consists of first filtering out GPS jumps and then using an EKF to fuse GPS positions with IMU measurements. The results below show the filtered results on the upper left hand side, the fused covariance on the lower left hand side. The raw data of the GPS and its covariance are shown on the top and bottom right respectively. 
 
 <img src="images/fusion.png?raw=true" width="600" height="600">
 
-In my last semester, I worked to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cones as landmarks. Please check out the current reults below.
+This data was collected on a moving go-kart controlled via-joystick which can be seen in the short gif below.
+
+<img src="images/shortav.gif?raw=true" width="300" height="500">
+
+In the third semester of my grad school, I worked to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cones as landmarks. Please check out the current reults below.
 
 [<img src="images/f1.gif?raw=true" width="300" height="300">](https://youtu.be/AknzieI0od0)
 [<img src="images/f2.gif?raw=true" width="300" height="300">](https://youtu.be/5mYCOwyy4mo)
@@ -57,25 +61,19 @@ Implemented YOLO, SOLO, and Faster-RCNN pipelines for object detection and insta
 
 <img src="images/ins1.png?raw=true" width="300" height="300"> <img src="images/ins2.png?raw=true" width="300" height="300">
 
-Depth estimation using Optical Flow
+<!-- Depth estimation using Optical Flow
 ------
 In this project, I used a sequence of image to calculate optical flow and used different confidence threshold to remove bad flow values. Moreover, I calculated the epipole considering pure translational motion and used it to calcualte the depth estimates accordingly. [GitHub](https://github.com/divyanshurs/depth_map_optical_flow.git)
 
-<img src="images/thres10.png?raw=true" width="300" height="300"> <img src="images/thres30.png?raw=true" width="300" height="300"><img src="images/dep10.png?raw=true" width="300" height="300"> <img src="images/dep30.png?raw=true" width="300" height="300"> 
+<img src="images/thres10.png?raw=true" width="300" height="300"> <img src="images/thres30.png?raw=true" width="300" height="300"><img src="images/dep10.png?raw=true" width="300" height="300"> <img src="images/dep30.png?raw=true" width="300" height="300">  -->
 
-Trajectory optimization for cube manipulation
+<!-- Trajectory optimization for cube manipulation
 ------
 The objective of this project, completed as part of the MEAM 517 course, was to design control systems for the vertices of a polytope (a cube in this case) to enable precise movement to a desired position and orientation. The main challenges encountered were managing surface friction and the number of contacts the cube had at any given moment.
 
 We implemented two methods namely the offline iLQR and online MPC approach to achieve this task. The results of which are given below. 
 
-<img src="images/square.gif?raw=true" width="300" height="300"> <img src="images/traj_opt_min.gif?raw=true" width="300" height="300">
-
-Two-View and Multi-View Stereo for 3D reconstruction 
-------
-The aim of this project was to use two view and multiple view images to form a 3D reconstruction of the object of interest. For multi-view stereo the plane sweep algorithm was implemented. [GitHub](https://github.com/divyanshurs/two-view_and_multi-view_stereo)
-
-<img src="images/t1.png?raw=true" width="300" height="300"><img src="images/result.gif?raw=true" width="300" height="300">  
+<img src="images/square.gif?raw=true" width="300" height="300"> <img src="images/traj_opt_min.gif?raw=true" width="300" height="300"> -->
 
 Path planning approaches for a planar quadrotor
 ------
@@ -83,6 +81,11 @@ This project was a semester long implementation of several methods implemented f
 
 <img src="images/MPC.gif?raw=true" width="300" height="300"><img src="images/ilqr.png?raw=true" width="300" height="300"> <img src="images/traj_track.gif?raw=true" width="300" height="300"><img src="images/min_snap1.png?raw=true" width="300" height="300">
 
+Two-View and Multi-View Stereo for 3D reconstruction 
+------
+The aim of this project was to use two view and multiple view images to form a 3D reconstruction of the object of interest. For multi-view stereo the plane sweep algorithm was implemented. [GitHub](https://github.com/divyanshurs/two-view_and_multi-view_stereo)
+
+<img src="images/t1.png?raw=true" width="300" height="300"><img src="images/result.gif?raw=true" width="300" height="300">
 
 SLAM using Particle Filter for humanoid Robot
 ------
