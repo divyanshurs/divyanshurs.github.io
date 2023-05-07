@@ -41,7 +41,7 @@ Skymul (Atlanta) - **Integration Lead**
 
 My role at Skymul had been to integrate hardware components and create an end-to-end software pipeline for performing waypoint navigation on a mobile platform. During the period of my internship, I've had the opportunity to interact with hardware and learn how to use software drivers to integrate them into a complete system. I worked mainly on integrating three different hardware platforms with the robot. The aim was to test the accuracy of these sensor platforms and decide the best for the robot’s task at hand.
 
-<img src="images/dog_post.png?raw=true" width="300" height="300"> <img src="images/dog.png?raw=true" width="300" height="300">
+<img src="images/dog_post.jpg?raw=true" width="300" height="300"> <img src="images/dog.jpg?raw=true" width="300" height="300">
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7021875236950200320" height="591" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
