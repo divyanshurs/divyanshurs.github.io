@@ -41,8 +41,7 @@ Skymul (Atlanta) - **Integration Lead**
 
 My role at Skymul had been to integrate hardware components and create an end-to-end software pipeline for performing waypoint navigation on a mobile platform. During the period of my internship, I've had the opportunity to interact with hardware and learn how to use software drivers to integrate them into a complete system. I worked mainly on integrating three different hardware platforms with the robot. The aim was to test the accuracy of these sensor platforms and decide the best for the robot’s task at hand.
 
-[<img src="images/in1.gif?raw=true" width="300" height="300">](https://youtu.be/_rudkxJkVwE)
-[<img src="images/o1.gif?raw=true" width="300" height="300">](https://youtu.be/0yFySHLm6fA)
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7021875236950200320" height="591" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 Mowito Robotics (Bangalore) - **Robotics Engineer**
 ------
