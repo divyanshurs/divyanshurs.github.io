@@ -14,19 +14,32 @@ In my professional career, I have worked as an integration lead at [SkyMul](http
 
 I am interested in working towards the holistic development of autonomous mobile robots with an aim to build robust software pipelines to seamlessly work with the given hardware. Please find my resume [here](https://divyanshurs.github.io/files/Resume.pdf). 
 
-
 Research Experience
 ======
 
-mLAB- Autonomous Go-Kart Group | GRASP-UPenn - Robust cone detection using Lidar and camera
+mLAB- Autonomous Go-Kart Group | GRASP-UPenn
 ------
-This is part of my continued research on optimal methods for sensor fusion for localization and SLAM. The aim of this project is to use GPS+IMU fusion along with LIDAR's and cameras for robust and fast localization of an autonomous go-kart. The following is the final result of EKF fusion using GPS and IMU. The pipeline consists of first filtering out GPS jumps and then using an EKF to fuse GPS positions with IMU measurements. The results below show the filtered results on the upper left hand side, the fused covariance on the lower left hand side. The raw data of the GPS and its covariance are shown on the top and bottom right respectively. 
+
+Latest Update:- UPenn are the WINNERS of the Autonomous go-kart challenge hosted at Purdue University!!!
+
+<img src="images/win2.png?raw=true" width="600" height="600"> <img src="images/win_self.png?raw=true" width="600" height="600">
+
+Having worked two semesters on both aspects of this competition namely reactive and pre-mapping based controls, this experience has helped me reshape the concepts I learnt in theory from my classes at UPenn. Moreover my expereince with creating software pipelines and expertise in ROS came in handy.
+
+For the rective based controls, the idea was to not use a pre-mapped path but to react to the observed track locally and do so safely for five laps of the track to win. I initially worked with LIDAR's and performed RANSAC and clustering to get information about the upcoming road and cone information respectively. The plan was to use a gap-follow algorithm but the noise and inconsistency of the LIDAR detections made it difficult for us to reliably trust this approach. To overcome this, we decided to work with a single monocular camera converting its image into a pre-calibrated birds eye view and tuning the depths measured per-pixel. We then used the Canny edge detection algo to detect grass and convert them it to a Laser Scan which was consistent enough to be given to the gap-follow algo. This worked very well given the lighting consitions were in our favor. Watch the back-end visulaisation of our algorithm and the actual run below (click on the GIF to view the full-video). 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xCRqczp_Acs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6IgGBG_flno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For the pre-mapping based controls, I was responsible for the writing a python library to fuse any number of sensors with a partial state update to fuse GPS, IMU, and Wheel Odometry. Integrating this localisation with pure-pursuit algorithm required creating pre-mapping pipelines to use this fusion initially to drive the go-kart manually and collect the waypoints of the track. Using these waypoints, a simple linear interpolation scheme was used to create a path for the pure-pursuit algorithm to follow.
+
+The following is the final result of EKF fusion using GPS and IMU. The pipeline consists of first filtering out GPS jumps and then using an EKF to fuse GPS positions with IMU measurements. The results below show the filtered results on the upper left hand side, the fused covariance on the lower left hand side. The raw data of the GPS and its covariance are shown on the top and bottom right respectively. 
 
 <img src="images/fusion_latest.png?raw=true" width="600" height="600">
 
-This data was collected on a moving go-kart controlled via-joystick which can be seen in the short gif below.
+<!-- This data was collected on a moving go-kart controlled via-joystick which can be seen in the short gif below.
 
-<img src="images/shortav.gif?raw=true" width="300" height="500">
+<img src="images/shortav.gif?raw=true" width="300" height="500"> -->
 
 In the third semester of my grad school, I worked to fuse cone detections from both the sensors and use them to increase robusness. This project is currently a work in progress. We have completed the calibration aspect and seperate cone detection pipelines. We have also overlayed the detections from the camera using YOLO-v7 to filter out the point cloud data. The ultimate aim is to use this robust and fused pipeline to perform SLAM using cones as landmarks. Please check out the current reults below.
 
