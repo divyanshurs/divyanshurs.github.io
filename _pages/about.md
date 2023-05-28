@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Thank you for visiting my website. I am a graduate student studying Robotics at the University of Pennsylvania. I am currently in my final semester actively looking for job opportunties in computer vision and motion planning roles. Please feel free to contact me with relevant roles via email.
+Hi! Thank you for visiting my website. I recently graduated from the University of Pennsylvania completing my Master's in Robotics degree. I am actively looking for job opportunties in computer vision and motion planning roles. Please feel free to contact me with relevant roles via email.
 
 In my professional career, I have worked as an integration lead at [SkyMul](https://skymul.com/) (based in Atlanta) and developed end-to-end software pipelines to semalessly integrate with their quadrupedal hardware platform. I have extensively worked with ROS. Before joining Penn, I also worked on feature development for mobile robots for [Mowito](https://www.mowito.in/) which is a robotics startup based out of India. 
 
