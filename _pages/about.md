@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Thank you for visiting my website. I recently graduated from the University of Pennsylvania completing my Master's in Robotics degree. I am actively looking for job opportunties in computer vision and motion planning roles. Please feel free to contact me with relevant roles via email.
+Hello there! Thank you for visiting my website. I'm thrilled to share that I recently completed my Master's degree in Robotics at the University of Pennsylvania. Currently, I am actively seeking job opportunities in the field of computer vision and motion planning. Please feel free to contact me with relevant roles via email.
 
 In my professional career, I have worked as an integration lead at [SkyMul](https://skymul.com/) (based in Atlanta) and developed end-to-end software pipelines to semalessly integrate with their quadrupedal hardware platform. I have extensively worked with ROS. Before joining Penn, I also worked on feature development for mobile robots for [Mowito](https://www.mowito.in/) which is a robotics startup based out of India. 
 
-I am interested in working towards the holistic development of autonomous mobile robots with an aim to build robust software pipelines to seamlessly work with the given hardware. Please find my resume [here](https://divyanshurs.github.io/files/Resume.pdf). 
+My passion lies in the holistic development of autonomous mobile robots. I aim to build robust software pipelines that can seamlessly integrate with specific hardware requirements. If you would like to learn more about my qualifications and experience, please find my resume [here](https://divyanshurs.github.io/files/Resume.pdf). 
 
 Research Experience
 ======
@@ -24,7 +24,7 @@ Latest Update:- UPenn are the WINNERS of the Autonomous go-kart challenge hosted
 
 <img src="images/win2.png?raw=true" width="300" height="300"> <img src="images/win_self.png?raw=true" width="300" height="300">
 
-During my two semesters of involvement in this competition, I had the opportunity to gain valuable experience in both reactive and pre-mapping based controls. This hands-on experience allowed me to put into practice the theoretical concepts I had learned in my classes at UPenn, reshaping and applying them effectively. Additionally, my expertise in creating software pipelines and utilizing ROS (Robot Operating System) proved to be advantageous in this context.
+Throughout my active participation in this competition for two semesters, I acquired valuable experience in the implementation of both reactive and pre-mapping based controls. This practical engagement enabled me to apply the theoretical concepts I learned during my studies at UPenn, effectively reshaping and putting them into practice. Furthermore, my proficiency in developing software pipelines and leveraging the capabilities of the Robot Operating System (ROS) proved to be advantageous in this context.
 
 The competition itself was divided into two distinct parts. In the first phase, our objective was to navigate the track without relying on a pre-mapped path, instead adopting a reactive-based approach to control the autonomous go-kart. Our goal was to react to the observed track in real-time, ensuring safe operation throughout five laps to secure victory. To achieve this, we decided to leverage the power of image-based grass detection using a single monocular camera. By transforming the camera's image into a pre-calibrated bird's eye view and adjusting depth measurements on a per-pixel basis, we were able to obtain an extremely reliable lane detection capability. These detections were then converted into a Laser Scan format, which served as input for our gap-follow algorithm. Our approach demonstrated solid performance, especially under favorable lighting conditions. You can watch the back-end visualization of our algorithm and the actual run below.
 
